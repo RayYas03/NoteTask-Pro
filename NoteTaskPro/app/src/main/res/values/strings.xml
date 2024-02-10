@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">NoteTask Pro</string>
+    <string name="write">Write your notes here...</string>
+    <string name="notetitle">Note Title</string>
+    <string name="deleteNote">Delete</string>
+    <string name="viewNote">View</string>
+    <string name="noteDate">Date</string>
+    <string name="title">Title:</string>
+    <string name="desc">Content:</string>
+    <string name="date">Date:</string>
+    <string name="Notes">Notes</string>
+    <string name="Todo">To do list</string>
+    <string name="Settings">Settings</string>
+    <string name="AboutUs" translatable="false">About Us</string>
+    <string name="Logout" translatable="false">Logout</string>
+    <string name="welcmsg" translatable="false">Begin noting, achieve more!</string>
+    <string name="open_nav" translatable="false">Open Navigation Drawer</string>
+    <string name="close_nav" translatable="false">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="NewNote">New Note</string>
+    <string name="delete_button_description">Delete</string>
+    <string name="light" translatable="false">Light</string>
+    <string name="dark" translatable="false">Dark</string>
+    <string name="auto" translatable="false">Auto</string>
+    <string name="add">Add</string>
+    <string name="share">Share</string>
+    <string name="study" translatable="false">Work on mobile project</string>
+    <string name="gym" translatable="false">Go to the gym</string>
+    <string name="shower" translatable="false">Take a cold shower</string>
+    <string name="about">NoteTask Pro is a powerful and intuitive app designed to streamline your productivity by seamlessly integrating note-taking and task management functionalities. Whether you\'re a student, professional, or anyone seeking a simple yet robust solution to organize your thoughts and tasks, NoteTask Pro is here to elevate your efficiency.</string>
+</resources>

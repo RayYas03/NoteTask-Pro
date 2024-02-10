@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/task_bg">
+
+    <TextView
+        android:id="@+id/SettingsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Settings"
+        android:textSize="30dp"
+        android:paddingTop="100dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:background="@color/purple"/>
+
+    <!-- Setting Toggle Switch -->
+    <TextView
+        android:id="@+id/setting1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification on"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/SettingsTitle"
+        android:paddingLeft="20dp"/>
+
+    <Switch
+        android:id="@+id/settingSwitch1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/setting1"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/setting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text size"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/setting1"
+        android:paddingLeft="20dp"/>
+
+
+    <SeekBar
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/setting2"/>
+
+
+
+    <TextView
+        android:id="@+id/setting3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme selection"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/setting2"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/radioButtonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting3"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/Light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/light"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:id="@+id/Dark"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dark"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:id="@+id/Auto"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/auto"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

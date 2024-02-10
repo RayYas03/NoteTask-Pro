@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notetitle">عنوان الملاحظة</string>
+    <string name="deleteNote">مسح</string>
+    <string name="viewNote">عر</string>
+    <string name="noteDate">تاريخ</string>
+    <string name="title">عنوان:</string>
+    <string name="desc">محتوى:</string>
+    <string name="date">تاريخ:</string>
+    <string name="Notes">ملاحظات</string>
+    <string name="Todo">قائمة العمل</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="NewNote">ملاحظة جديدة</string>
+    <string name="delete_button_description">حذف</string>
+    <string name="add">زيادة</string>
+    <string name="share">نشر</string>
+    <string name="about">NoteTask Pro هو تطبيق قوي وسهل الاستخدام مصمم لتبسيط إنتاجيتك من خلال دمج وظائف تدوين الملاحظات وإدارة المهام بسلاسة. سواء كنت طالبًا أو محترفًا أو أي شخص يبحث عن حل بسيط ولكنه قوي لتنظيم أفكارك ومهامك، فإن NoteTask Pro موجود هنا لرفع مستوى كفاءتك.</string>
+    <string name="write">اكتب ملاحظاتك هنا...</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notetitle">Titre de la note</string>
+    <string name="deleteNote">Supprimer</string>
+    <string name="viewNote">Afficher</string>
+    <string name="noteDate">Date</string>
+    <string name="title">Titre:</string>
+    <string name="desc">Contenu:</string>
+    <string name="date">Date:</string>
+    <string name="Notes">Notes</string>
+    <string name="Todo">Liste de tâches</string>
+    <string name="Settings">Réglages</string>
+    <string name="NewNote">Nouvelle note</string>
+    <string name="delete_button_description">Supprimer</string>
+    <string name="add">Ajouter</string>
+    <string name="share">Partager</string>
+    <string name="about">NoteTask Pro est une application puissante et intuitive conçue pour rationaliser votre productivité en intégrant de manière transparente des fonctionnalités de prise de notes et de gestion de tâches. Que vous soyez étudiant, professionnel ou toute personne recherchant une solution simple mais robuste pour organiser vos pensées et vos tâches, NoteTask Pro est là pour améliorer votre efficacité.</string>
+    <string name="write">Écrivez vos notes ici...</string>
+</resources>

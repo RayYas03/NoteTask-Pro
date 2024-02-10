@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/task_bg">
+
+    <CheckBox
+        android:id="@+id/Task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task_backg"
+        android:text="@string/study"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/Task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task_backg"
+        android:text="@string/gym"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/Task3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task_backg"
+        android:text="@string/shower"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Add Task Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:text="@string/add"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="addTask"
+        style="@style/CuteButtonStyle"
+        android:layout_marginTop="450dp"/>
+
+</LinearLayout>

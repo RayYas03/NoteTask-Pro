@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNote"
+    android:background="@drawable/task_bg">
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:hint="@string/noteDate"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="16dp"
+        />
+    <EditText
+        android:id="@+id/NoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:hint="@string/notetitle"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/Date"
+        android:paddingLeft="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:id="@+id/Notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/DateText"
+            android:hint="@string/write"
+            android:textColorHint="@color/grey"
+            android:gravity="top"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:paddingTop="16dp"/>
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:text="@string/add"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="addNote"
+        style="@style/CuteButtonStyle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:text="@string/share"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="share"
+        android:layout_marginLeft="300dp"
+        style="@style/CuteButtonStyle"/>
+
+
+
+
+</RelativeLayout>

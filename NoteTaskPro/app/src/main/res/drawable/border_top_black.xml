@@ -1,0 +1,19 @@
+<!-- res/drawable/border_top_black.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Black border at the top -->
+    <item android:top="0dp" android:left="0dp" android:right="0dp" android:bottom="2dp">
+        <shape>
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- Original TextView background -->
+    <item android:top="2dp">
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Set your desired background color -->
+        </shape>
+    </item>
+
+</layer-list>
